@@ -47,7 +47,7 @@ void menu(int c)
 void programme()
 {
     char repeat = '0';
-    menu(1);   
+    menu(1);
     printf("pouvez-vous choisir une autre converture? Y,N\n");
     scanf(" %c",&repeat);
     if(repeat == 'Y'||repeat =='y')
